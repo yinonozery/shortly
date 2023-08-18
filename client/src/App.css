@@ -1,0 +1,25 @@
+:root {
+    --color-cyan: hsl(180, 66%, 49%);
+    --color-light-violet: #f0f1f6;
+    --color-dark-violet: hsl(257, 27%, 26%);
+    --color-red: hsl(0, 87%, 67%);
+    --color-gray: hsl(0, 0%, 75%);
+    --color-grayish-violet: hsl(257, 7%, 63%);
+    --color-very-dark-blue: hsl(255, 11%, 22%);
+    --color-very-dark-violet: hsl(260, 8%, 14%);
+}
+
+.App1 {
+    padding: 4% 8% 0 8%;
+}
+
+.App3 {
+    margin-bottom: 50px;
+    padding-bottom: 4%;
+}
+
+.App2 {
+    background-color: var(--color-light-violet);
+    width: 100%;
+    padding-bottom: 100px;
+}

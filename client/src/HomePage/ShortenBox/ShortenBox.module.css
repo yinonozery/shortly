@@ -1,0 +1,91 @@
+.shortenBox {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    background: var(--color-dark-violet) url('../../assets//images/bg-boost-desktop.svg');
+    padding: 20px 10px;
+    width: 80%;
+    border-radius: 5px;
+    gap: 10px;
+    position: relative;
+    top: -35px;
+    /* height: 40px;
+    bottom: 40px; */
+}
+
+.shortenBox input,
+.result input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    height: 30px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    width: 60%;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.shortenBox button {
+    background-color: var(--color-cyan);
+    padding: 5px 25px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    white-space: nowrap;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-block-end: 50px;
+    border-radius: 10px;
+    width: 320px;
+    margin-inline: auto;
+    height: 0;
+    transition: height 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    overflow: hidden;
+}
+
+.glowRed {
+    box-shadow: 0 0 10px red;
+}
+
+.fadeIn {
+    height: 80px;
+    align-items: center;
+}
+
+.result input {
+    width: 270px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.result img {
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .shortenBox {
+        flex-direction: column;
+        width: 60%;
+        top: -55px;
+    }
+    .shortenBox input {
+        width: 90%;
+    }
+    .shortenBox button {
+        width: 90%;
+    }
+}

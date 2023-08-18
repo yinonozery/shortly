@@ -1,0 +1,23 @@
+.notFoundBox {
+    margin-block-start: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.notFoundBox h1 {
+    color: var(--color-very-dark-blue);
+}
+
+button {
+    background-color: var(--color-cyan);
+    padding: 8px 20px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+}

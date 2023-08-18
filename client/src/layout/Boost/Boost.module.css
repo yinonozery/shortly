@@ -1,0 +1,25 @@
+.boostBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-dark-violet) url('../../assets//images/bg-boost-desktop.svg');
+    height: 250px;
+    position: relative;
+
+}
+
+.boostBox h1 {
+    color: var(--color-light-violet);
+}
+
+.boostBox button {
+    background-color: var(--color-cyan);
+    padding: 8px 20px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+}
