@@ -4,9 +4,10 @@
     justify-content: center;
     align-items: center;
     background: var(--color-dark-violet) url('../../assets//images/bg-boost-desktop.svg');
+    background-size: cover;
+    background-position: center;
     height: 250px;
     position: relative;
-
 }
 
 .boostBox h1 {

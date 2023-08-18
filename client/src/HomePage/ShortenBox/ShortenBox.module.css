@@ -6,14 +6,14 @@
     align-items: center;
     margin-inline: auto;
     background: var(--color-dark-violet) url('../../assets//images/bg-boost-desktop.svg');
-    padding: 20px 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0px;
     width: 80%;
     border-radius: 5px;
     gap: 10px;
     position: relative;
     top: -35px;
-    /* height: 40px;
-    bottom: 40px; */
 }
 
 .shortenBox input,
