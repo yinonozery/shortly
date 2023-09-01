@@ -1,9 +1,9 @@
 # Shortly - URL Shortener Service
 
 <p align="center">
-  <img alt="Light" src="https://github.com/yinonozery/shortly/assets/74764366/df683f9e-5232-471c-bd7e-1b206c1019c3" width="45%">
+  <img alt="Light" src="https://github.com/yinonozery/shortly/assets/74764366/a52997ef-bc78-443c-b407-cf265b800fdd" height="500px">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://github.com/yinonozery/shortly/assets/74764366/c93c19c8-6241-45da-ab3e-3a734755c727" height="500px">
+  <img alt="Dark" src="https://github.com/yinonozery/shortly/assets/74764366/7581ecff-2c59-497f-8fb8-2b7ca17f8290" width="45%">
 </p>
 
 ---
